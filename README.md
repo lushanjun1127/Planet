@@ -1,3 +1,5 @@
+# planet
+>>>>>>> 4d2ea41597008e48a7826c8eb8aaa1bef181d202
 # Planet 导航站
 
 一个部署在 Cloudflare Pages 上的二次元风格导航站，支持双主题切换、实时搜索等功能。
@@ -136,3 +138,6 @@ GET /api/search?q=关键词
 ## 📄 License
 
 MIT
+=======
+# planet
+>>>>>>> 4d2ea41597008e48a7826c8eb8aaa1bef181d202
