@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet 导航 - 二次元风格导航站</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <header>
+            <div class="logo">
+                <h1>🪐 Planet 导航</h1>
+            </div>
+            <div class="header-controls">
+                <!-- 搜索框 -->
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="搜索网站...">
+                    <button id="searchBtn">🔍</button>
+                </div>
+                <!-- 主题切换按钮 -->
+                <button id="themeToggle" class="theme-btn">🌙</button>
+            </div>
+        </header>
+
+        <!-- 主要内容 -->
+        <main>
+            <!-- 分类标签 -->
+            <div class="categories">
+                <button class="category-btn active" data-category="all">全部</button>
+                <button class="category-btn" data-category="anime">动漫</button>
+                <button class="category-btn" data-category="game">游戏</button>
+                <button class="category-btn" data-category="tool">工具</button>
+                <button class="category-btn" data-category="social">社交</button>
+                <button class="category-btn" data-category="study">学习</button>
+            </div>
+
+            <!-- 网站卡片网格 -->
+            <div class="website-grid" id="websiteGrid">
+                <!-- 网站卡片将通过 JS 动态加载 -->
+            </div>
+        </main>
+
+        <!-- 页脚 -->
+        <footer>
+            <p>© 2026 Planet 导航 | Powered by Cloudflare Workers</p>
+        </footer>
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+# Cloudflare D1 数据库配置
+database_name = "planet-navigation-db"
+database_id = "6230ca31-358f-4e95-9d6b-1fe4bd7e6ebf"
+
+# KV 命名空间配置
+[[kv_namespaces]]
+binding = "NAVIGATION_KV"
+id = "79ebba1b99c14578a1dc882520c059ba"
+preview_id = "79ebba1b99c14578a1dc882520c059ba"
+
+# D1 数据库绑定
+[[d1_databases]]
+binding = "DB"
+database_name = "planet-navigation-db"
+database_id = "6230ca31-358f-4e95-9d6b-1fe4bd7e6ebf"
+
+[vars]
+ENVIRONMENT = "production"
